@@ -20,7 +20,7 @@ const ControlledForm = ()=>{
               <div>
                 <label>Name</label>
                 <input value={name} onChange = {e=>setName(e.target.value)} placeholder="Enter your name" />
-
+                 {name}
               </div>
               <button type="submit">Submit</button>
 
